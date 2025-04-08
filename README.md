@@ -10,12 +10,12 @@ The script aims to simplify the task of applying the necessary `chmod` commands 
 
 ## Usage
 
-1.  **Download the script:** Download the `chmod_phpbb.sh` file to your server where your phpBB installation is located.
+1.  **Download the script:** Download the `set_permissions.sh` file to your server where your phpBB installation is located.
 
 2.  **Make the script executable:** Open your terminal and navigate to the directory where you saved the script. Then, run the following command:
 
     ```bash
-    chmod +x chmod_phpbb.sh
+    chmod +x set_permissions.sh
     ```
 
 3.  **Navigate to your phpBB root directory:** In the same terminal, navigate to the root directory of your phpBB installation. This is the directory containing files like `config.php`, `index.php`, and the `cache/`, `files/`, `store/` directories.
@@ -23,7 +23,7 @@ The script aims to simplify the task of applying the necessary `chmod` commands 
 4.  **Run the script:** Execute the script from within your phpBB root directory:
 
     ```bash
-    ./chmod_phpbb.sh
+    ./set_permissions.sh
     ```
 
 5.  **Review the output:** The script will output the `chmod` commands it executes. Review the output to ensure the commands were applied as expected.
